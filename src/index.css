@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+button,
+.button {
+  background-color: #6495ED;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  cursor: pointer;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
 }
+div > p{
+	color: olive;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width:60%;
+}
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width:50%;
+	margin: auto;
+  }
+input[type=text],[type=number],select {
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+input[type=text]:focus,[type=number]:focus,select:focus{
+	border: 0.5px solid #6495ED;
+	outline: none;
+  }
+.errorDisplay {
+  color:#db2269;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+.errorHide {
+  color:#db2269;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+  
